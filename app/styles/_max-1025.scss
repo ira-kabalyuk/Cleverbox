@@ -1,0 +1,41 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+@media only screen and (max-width: 1025px) {	
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+    .navigation {    
+        padding: 0 20px;
+    }
+
+    //footer
+        
+    .footer-bottom-block {
+
+        &:before {
+            content: "";
+            width: 0;            
+	    }
+    }
+
+    //end-footer
+
+    //PAY
+
+    .pay-block {
+
+        .img-wrap  {
+            max-width: 197px;
+        }
+    }
+
+    //END PAY   
+
+
+}

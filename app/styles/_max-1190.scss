@@ -1,0 +1,24 @@
+$icon-font-path: '../fonts/';
+
+$border-color: #e2e2e2;
+$purple-color: #603673;
+
+@media only screen and (max-width: 1190px) {	
+
+    .slide-wrap {
+        display: none;
+    
+	}
+
+	.pagewrap {
+		width: 100%;
+        padding-left: 0;
+        padding: 0 10px;
+	}
+
+    .footer {
+        width: 100%;
+         padding-left: 7px;
+    }    
+
+}
