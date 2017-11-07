@@ -1,226 +1,36 @@
 $icon-font-path: '../fonts/';
 
-$border-color: #e2e2e2;
-$purple-color: #603673;
+$black: #1a1a1a;
+$red: #ed1c24;
+$gray: #f6f6f6;
 
 @media only screen and (max-width: 540px) {
 
-    .content-title {
-        font-size: 25px;
-    }
+    .section-2 {
 
-    .page {
+        .content-block {
 
-        .paging-list {
-
-           li {
-
-                &:first-child {
-                    display: none;
-                }
-
-                &:last-child {
-                    display: none;
-                }
-           }
-       }
-    }
-
-    //header
-
-    .button-wrap {
-        display: none;
-    }
-
-    .navigation {
-
-        ul {
-            .button-wrap {
-                 display: block;
-                 margin-top: 15px;
-
-                 .button {
-                   font-size: 16px;
-                   color: #fff;
-                   font-weight: 100;
-                   letter-spacing: 2px;
-                   max-width: 220px;
-                 }
-            } 
-        }       
-    } 
-
-    //header
-
-//MAIN-PAGE
-
-  .main-section {
-	 
-     .description {
-        font-size: 14px;
-     }
-  }
-
-  .main-col-section {
-
-      .column-list {
-
-          li {
-              padding: 0 15px;
-          }
-      }
-  }
-
-  .list-title {
-      font-size: 20px;
-      margin-bottom: 10px;
-  }
-
-  .list-description {
-      font-size: 14px;
-  }
-
-  // END MAIN-PAGE
-
-  //footer
-
-   .footer {
-
-     .footer-column-list {
-         flex-direction: column;
-
-       li {
-           width: 100%;
-       }
-   } 
-
-   
-}
-
-.copyright {
-    height: 45px;
-    line-height: 45px;
-    vertical-align: middle;
-    text-align: center;
-}
-
-  //end footer
-
-  //MODAL
-
-  .modal-dialog {		
-
-        .close {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            background: #8822cb;
-            opacity: 1;
-
-            position: absolute;
-            top: -22px;
-            right: -22px;
-        }
-	}    
-
-  //END MODAL
-
-  //VSTUP
-
-    .vstup-block {
-    
-       .checkbox-block-wrap {
-           flex-direction: column;
-       }
-
-       .checkbox-block {
-           width: 100%;
-           margin-right: 0;
-
-           &:last-child {
-               margin-left: 0;
-               margin-top: 15px;
-           }
-       }
-
-       .page-create-list {
-           justify-content: center;
-
-           li {
-               text-align: center;
-           }
-
-           .num-wrap {
-               margin-right: 0;
-               margin-bottom: 15px;
-               float: none;
-           }
-
-           .content-title {
-               float: none;
-               width: 100%;
-           }
-
-           .thin-text {
-                float: none;
-                width: 100%;
-           }
-       }
-
-    }
-
-    //END VSTUP
-
-    //PAY
-
-    .pay-block {
-
-         .pay-list {
-
-             li {
+            &.flex {
                 flex-direction: column;
-             }             
-
-        }
-
-        .img-wrap {
-            margin-left:0;
-            max-width: 100%;
-            margin: 15px 0;
-            float: none;
-        }
-
-        .logo-wrap {
-            text-align: center;
-            margin: 15px 0;
-            float: none;
-            max-width: 100%;
-    }
-
-    .content-list {       
-
-        li {
-           
-                flex-direction: row;
+                align-items: center;
             }
         }
-
-
-    }    
-    
-
-    //PAY END
-
-    .article-block {   
-
-    .tags-wrap {
-        
-        .info-block {
-            width: 100%;
-        }
     }
 
- }  
+    .icon-1 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        width: 88px;
+        height: 88px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+    }
 
 }
 

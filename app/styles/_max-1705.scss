@@ -1,47 +1,8 @@
 $icon-font-path: '../fonts/';
 
-$border-color: #e2e2e2;
-$purple-color: #603673;
+
 
 @media only screen and (max-width: 1705px) {	
 
-    .content {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-
-      .slide-wrap {
-       width: 280px;
     
-	}
-
-	.pagewrap {
-		width: calc(100% - 280px);
-        //margin-right: 280px;
-	}
-
-    .column-list {
-      margin: 0 -7px;  
-
-      li {
-         width: calc(33.3% - 14px);
-        margin: 0 7px;
-      }
-     
-    }
-
-    .footer {
-        width: calc(100% - 280px);
-    }
-
-    .footer-bottom-block {
-
-        &:before {
-            content: "";
-            width: 280px;
-            right: -280px;            
-	    }
-    }
-
 }

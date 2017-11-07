@@ -1,41 +1,21 @@
 $icon-font-path: '../fonts/';
 
-$border-color: #e2e2e2;
-$purple-color: #603673;
+$black: #1a1a1a;
+$red: #ed1c24;
+$gray: #f6f6f6;
 
 @media only screen and (max-width: 1025px) {	
 
-    html {
-        overflow-x: hidden;
-    }
-
-
-    .navigation {    
+    .content {
+        width: 100%;
         padding: 0 20px;
     }
 
-    //footer
-        
-    .footer-bottom-block {
+    .section-1 {
 
-        &:before {
-            content: "";
-            width: 0;            
-	    }
-    }
-
-    //end-footer
-
-    //PAY
-
-    .pay-block {
-
-        .img-wrap  {
-            max-width: 197px;
+        .content {
+            padding: 20px;
         }
     }
-
-    //END PAY   
-
 
 }

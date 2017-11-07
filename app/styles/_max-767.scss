@@ -1,208 +1,90 @@
 $icon-font-path: '../fonts/';
 
-$border-color: #e2e2e2;
-$purple-color: #603673;
+$black: #1a1a1a;
+$red: #ed1c24;
+$gray: #f6f6f6;
 
 @media only screen and (max-width: 767px) {
 
     .title {
-		  text-align: center;
-          font-size: 30px;
-	  }
-
-      .middle-title {
-        font-size: 30px;
-        font-weight: 700;
+        font-size: 34px;
     }
 
-      .page {
+    .title-md {
+        font-size: 30px;
+    }
 
-          .blog-wrap {
-              margin: 10px 0;
-          }
+    .subtitle {
+        font-size: 22px;
+    }
 
-          .paging-list {
+    .text {
+        font-size: 20px;
+    }
 
-              li {
+    .text-l {
+        font-size: 17px;
+    }
 
-                  a {
-                    font-size: 16px;
-                    padding: 0 15px;
-                  }
-              }
-          }
-      }
+    .img-wrap-desctop {
+        display: none;
+    }
 
-    //HEADER
-    
+    .img-wrap-mobile {
+        display: block;
+    }
 
-    //END HEADER
+    .logo {        
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
 
-     //MAIN-PAGE
+        img {
+            max-width: 280px;
+            height: 107px;
+        }
+    }
 
-  .main-section {
-	 
-     .description {
-         padding: 20px 0;
-     }
-  }  
+    .section-1 {
+        min-height: auto;
 
-  // END MAIN-PAGE
-
-  //footer
-
-   .contacts-section {
-
-        .column-list {
-            display: flex;
-            flex-direction: column;
-            margin: 0 auto;
-
-        li {
-            width: 100%;
-            margin: 0;
-            border-right: none;
-            border-bottom: 1px solid $border-color;
-            padding: 20px 0 20px 0;
-
-            &:last-child {
-                border-bottom: none;
-            }
+        .content-block {
+           margin: 20px 0 0 0; 
+           padding: 32px 0 13px 0;          
         }
 
+        .text {
+            width: 100%;
+        }
     }
 
-   } 
+    .section-2 {
+        margin-top: 20px;
 
-   .footer {
+        .content {
+            padding: 0 20px;
+        }
+    }
 
-     .footer-column-list {
+    //section-3
 
-       li {
-           width: calc(50% - 28px);
-       }
-   } 
+    .section-3 {
+        margin: 30px 0;
+    }
+
+    .form-content {
+        padding: 30px;
+    }
+
+    .form {
+        text-align: center;
+    }
+
+    .input-wrap {
+       align-items: center;
+    }
 
     .button {
-        font-size: 14px;
+        margin: 0 auto;
     }
-    
-    }
-
-    //VSTUP
-
-    .vstup-block {
-
-        .content-label {
-            max-width: 100%;
-        }
-    
-        .content-input {
-             max-width: 100%;
-        }
-
-        .button {
-            max-width: 100%;
-        }
-
-        .section-item {
-            margin-bottom: 50px;
-        }
-
-    }
-
-    //END VSTUP
-
-    //MODAL
-
-    .modal-dialog-min {    
-
-        .modal-body {
-            text-align: center;
-            padding: 15px;
-        } 
-
-        .big-text {
-            padding: 50px 0;
-        } 
-
-        .icon-smile {
-        margin-top: 30px;
-        }  
-    }
-
-    //END-MODAL
-
-   //BLOG
-
-   .blog-block {
-       
-       .paging-list {
-           margin-bottom: 30px;
-       }
-   } 
-
-   //BLOG END
-
-   //ARTICLE
-
-   .article-block {
-
-       .page-title {
-           margin: 25px 0 15px 0;
-       }
-
-       .create-list,
-       .article-list {
-           margin: 20px 0;
-
-           li {
-
-               &:before {
-                    margin-right: 20px;
-               }
-           }
-       }
-
-       .img-wrap {
-           margin: 20px 0;
-       }
-
-       .create-block {
-
-           .big-text {
-               padding: 50px 20px 50px 20px;
-           }
-       }
-   }
-
-   //ARTICLE
-
-   //PARTNER
-
-   .partner-block {
-
-       .page-create-list {
-           flex-direction: column;
-          
-
-           li {
-               width: 100%;
-               border-right: 1px solid $border-color;
-               border-bottom: none;
-               padding: 25px;               
-
-               &:last-child {
-                   border-bottom: 1px solid $border-color;
-               }
-           }
-
-           .content-title {
-               padding: 14px 0;
-           }
-          
-       }
-   }
-
-   //END PARTNER
 }
