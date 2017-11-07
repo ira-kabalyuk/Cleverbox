@@ -77,11 +77,21 @@ body {
 		font-weight: 700;	
 	}
 
+	.title-sm {
+		font-size: 34px;
+		font-weight: 400;
+	}
+
+	.big-text {
+		font-size: 40px;
+	}
+
 	.subtitle {
 		font-size: 30px;
 		line-height: 1.5em;		
 	}
 
+	
 	//page
 
 	.content {
@@ -313,5 +323,81 @@ body {
 		-webkit-transform: scale3d(1, 1, 1);
 		transform: scale3d(1, 1, 1);
 		opacity: 1;
+	}
+
+	//section-4
+
+	.section-4 {
+		background: #f4f4f4;
+		padding: 80px 0;
+
+		.title-sm {
+			text-align: center;
+		}
+
+		.text-l  {
+			text-align: center;
+			margin-top: 25px;
+		}
+	}
+
+	.column {
+
+		&__list {
+			display: flex;
+			margin: 50px -20px 0;
+		}
+
+		&__item {
+			width: calc(33.33% - 40px);
+			margin: 0 20px;
+		}
+
+		&__title {
+			font-size: 24px;
+			font-weight: 600;
+		}
+
+		&__icon {
+
+			&_1 {
+				background: url(../images/icon-2.png) no-repeat;
+				width: 80px;
+				height: 80px;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+
+			&_2 {
+				background: url(../images/icon-3.png) no-repeat;
+				width: 80px;
+				height: 80px;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+
+			&_3 {
+				background: url(../images/icon-3.png) no-repeat;
+				width: 80px;
+				height: 80px;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+
+			&_4 {
+				background: url(../images/icon-4.png) no-repeat;
+				width: 80px;
+				height: 80px;
+				display: inline-block;
+				margin-bottom: 10px;
+			}
+		}
+
+		&__text {
+			font-size: 16px;
+			font-weight: 100;
+			line-height: 1.5em;
+			margin-top: 20px;
+		}
 	}
 
