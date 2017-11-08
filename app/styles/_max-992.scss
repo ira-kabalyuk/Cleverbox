@@ -35,4 +35,43 @@ $gray: #f6f6f6;
         width: 350px;
     }
 
+    .bottom-form-content {
+
+
+        .input-wrap {
+            align-items: center;
+        }
+    }
+
+    .copyright {
+        width: 100%;
+        position: relative;       
+        background: #f4f4f4;
+        justify-content: center;
+
+        &:after {
+            content: "";
+            width: 20px;
+            height: 100%;
+            display: block;
+            background: #f4f4f4;
+
+            position: absolute;
+            top: 0;
+            left: -20px;
+        }
+
+        &:before {
+            content: "";
+            width: 20px;
+            height: 100%;
+            display: block;
+            background: #f4f4f4;
+
+            position: absolute;
+            top: 0;
+            right: -20px;
+        }
+    }
+
 }
