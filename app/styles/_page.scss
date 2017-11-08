@@ -22,13 +22,15 @@ body {
 	//margin: 0.7em;
 }
 
-.hidden {
-	opacity:0;
+* {
+    box-sizing: border-box;
 }
-		
-.visible {
-	opacity:1;
+
+*:before, *:after {
+    box-sizing: border-box;
 }
+
+
 
 .img-wrap {
 
@@ -250,12 +252,13 @@ body {
 	}
 
 	.input {
+		font-family: 'Muller', sans-serif;
 		margin: 0 5px;
 		width: calc(33.33% - 10px);
 		border: 2px solid $dark-gray;
 		padding: 15px 18px;
 		font-size: 16px;
-		color: $dark-gray;
+		//color: $dark-gray;
 	}
 
 	.button {		
